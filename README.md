@@ -1,13 +1,13 @@
-# Linux Mint 19.2 Cinnamon NVIDIA 940M Driver Installation & CUDA 10.2 Toolkit Installation Instructions
+## Linux Mint 19.2 Cinnamon NVIDIA 940M Driver Installation & CUDA 10.2 Toolkit Installation Instructions
 
 * This repo includes set of steps to successfully install NVIDIA Driver and CUDA 10.2 in Mint 19.2 Cinnamon
 
-## Official Driver Installation for NVIDIA 940M
+### Official Driver Installation for NVIDIA 940M
 
 
 * First make the environment ready for driver installation by running below commands:
 
-```bash
+```shell
 $ sudo dpkg --add-architecture i386
 $ sudo apt update
 $ sudo apt install build-essential libc6:i386
